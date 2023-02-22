@@ -1,0 +1,21 @@
+#cardsTableau{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+ #requestExample{
+    margin:auto;
+    text-align:center;
+    display:block;
+ }
+
+
+@media screen and (max-width: 500px) {
+  #cardsTableau{
+    width:100%;
+    margin:auto;
+  }
+}

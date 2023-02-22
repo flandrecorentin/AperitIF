@@ -1,0 +1,12 @@
+.mainApp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+}
+
+.mainApp h1 {
+    font-size: 3em;
+    text-shadow: none;
+}

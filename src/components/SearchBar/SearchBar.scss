@@ -1,0 +1,97 @@
+#searchbar {
+  --accent: #3b82f6;
+  --accent-txt: #fff;
+  --txt: #27272a;
+  --txt-secondary: #929294;
+  --shadow: 0 25px 50px -12px rgba(156,163,175,.2);
+  --backdrop: #e5e7eb;
+  --backdrop-opacity: .65;
+  --bg: #fff;
+  --border-color: #f2f3f6;
+  --border-width: 1px;
+  --option-bg: transparent;
+  --option-txt: #27272a;
+  --selected-option-bg: #f4f4f5;
+  --selected-option-txt: #27272a;
+  --accent: #3b82f6;
+  --accent-txt: #fff;
+  --txt: #27272a;
+  --txt-secondary: #929294;
+  --shadow: 0 25px 50px -12px rgba(156,163,175,.2);
+  --backdrop: #e5e7eb;
+  --backdrop-opacity: .65;
+  --bg: #fff;
+  --border-color: #f2f3f6;
+  --border-width: 1px;
+  --option-bg: transparent;
+  --option-txt: #27272a;
+  --selected-option-bg: #f4f4f5;
+  --selected-option-txt: #27272a;
+}
+
+#searchbar {
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
+  -webkit-transition-property: all;
+  transition-property: all;
+  width: 100%;
+  max-width: 48rem;
+  border-radius: 1rem;
+  border: 1px solid var(--border);
+  margin: 0 auto;
+  box-shadow: 0 25px 50px -12px var(--shadow);
+  color: var(--txt);
+  background-color: var(--bg);
+  box-shadow: var(--shadow);
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4,0,0.2,1);
+  transition-timing-function: cubic-bezier(0.4,0,0.2,1);
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+
+#searchbar-inner {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  width: auto;
+  left: 0;
+  color: var(--txt);
+}
+
+#searchbar-icon {
+  color: var(--txt-secondary);
+  height: 22px;
+  width: 22px;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+#searchbar-text-div {
+  width: 100%;
+  position: relative;
+  height: auto;
+  color: var(--txt);
+}
+
+#searchbar-label {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  color: var(--txt);
+  border-width: 0;
+}

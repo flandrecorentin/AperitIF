@@ -1,0 +1,77 @@
+#h1cocktail{
+    font-size: 5rem;
+    text-align: center;
+    margin: 10px 0px;
+    padding: 0px;
+    text-shadow: rgb(20, 0, 0, 0.5) 2px 3px;
+}
+
+
+#comments{
+    padding: 20px;
+    margin: 10px 30px 30px 30px;
+    /*margin-right: 50%;*/
+    /*border-color: #fff; !* fallback *!*/
+    background-color: rgb(0,0,0,0.1);
+    backdrop-filter: blur(100px);
+    border-radius: 20px;
+}
+
+#ingredients{
+    border: solid 5px;
+    border-image: linear-gradient(-45deg, #3498db, #e67e22) 10;
+    padding: 0px 20px 10px 20px;
+    margin: 10px 30px 10px 30px;
+    font-size: 1.3rem;
+}
+
+#imgCocktail{
+    border: solid 10px;
+    border-image: linear-gradient(-45deg, #3498db, #e67e22) 1;
+    margin-right: 30px;
+    max-height: 500px;
+}
+
+.align{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#served{
+    padding: 10px 20px;
+    margin: 10px 30px 30px 10px;
+    /*margin-right: 50%;*/
+    /*border-color: #fff; !* fallback *!*/
+    background-color: rgb(0,0,0,0.1);
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.numberPersonsPlusMoins{
+    padding: 3px 10px;
+    margin:0px;
+    border: solid 3px;
+    border-radius: 10px;
+    background-color: #F1C185;
+}
+
+.textNumberPersons{
+    margin: 0px 5px
+}
+
+.eachIngredient{
+
+}
+#resultatOneCocktail{
+margin-bottom:80px;
+}
+
+.eachIngredient {
+    padding-left: 50px;
+}
+
+.ab {
+    font-weight: bold;
+}
